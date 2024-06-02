@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-monorepo/profile": ["libs/profile/src/index.ts"],
-      "@angular-monorepo/shared-ui": ["libs/shared/ui/src/index.ts"],
-      "@angular-monorepo/story": ["libs/story/src/index.ts"],
-      "@angular-monorepo/ui": ["ui/src/index.ts"]
+      "@xin-feng/profile": ["libs/profile/src/index.ts"],
+      "@xin-feng/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@xin-feng/story": ["libs/story/src/index.ts"],
+      "@xin-feng/ui": ["ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
