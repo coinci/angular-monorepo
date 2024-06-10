@@ -12,4 +12,9 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import('@xin-feng/profile').then((m) => m.ProfileListComponent),
   },
+  {
+    path: 'story',
+    loadComponent: () =>
+      import('@xin-feng/story').then((m) => m.StoryComponent),
+  },
 ];
