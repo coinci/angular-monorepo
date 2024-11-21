@@ -65,6 +65,10 @@ It will show tasks that you can run with Nx.
 - npm install @angular/material
 - npm install @ng-bootstrap/ng-bootstrap --force
 
+# add dependencies by nx add
+- nx add  @angular/material@18.2.14 --project=Playoffs
+- nx add  @angular/cdk@18.2.14 --project=Playoffs
+
 #ngrx
 Add ngrx with basic store and do not use facade class
 - nx g ngrx-root-store --project Playoffs --minimal false --name dandelion-state --facade false
