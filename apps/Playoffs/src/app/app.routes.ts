@@ -16,7 +16,10 @@ export const appRoutes: Route[] = [
   {
     path: 'story',
     loadComponent: () =>
-      import('@xin-feng/story').then((m) => m.StoryComponent),
+      import('@xin-feng/story').then((m) => {
+        console.log('###loading story component');
+        return m.StoryComponent;
+      }),
   },
   {
     path: 'home',
