@@ -332,9 +332,6 @@
     },
     "targetVersion": "20",
     "confirmedPackageUpdates": true,
-    "runningMigrations": [
-      "19-2-0-move-graph-cache-directory"
-    ],
     "completedMigrations": {
       "19-2-0-move-graph-cache-directory": {
         "type": "successful",
@@ -349,9 +346,41 @@
             "type": "UPDATE"
           }
         ],
-        "ref": "f13edf1d1cbf56bf8de698eb2965c2cd8e0263a5",
+        "ref": "fb89c7b19bbcae82e8b5a39ea07f7d04e29fc78a",
+        "nextSteps": []
+      },
+      "19-2-2-update-nx-wrapper": {
+        "type": "successful",
+        "name": "19-2-2-update-nx-wrapper",
+        "changedFiles": [],
+        "ref": "fb89c7b19bbcae82e8b5a39ea07f7d04e29fc78a",
+        "nextSteps": []
+      },
+      "19-2-4-set-project-name": {
+        "type": "skipped"
+      },
+      "move-use-daemon-process": {
+        "type": "successful",
+        "name": "move-use-daemon-process",
+        "changedFiles": [],
+        "ref": "fb89c7b19bbcae82e8b5a39ea07f7d04e29fc78a",
+        "nextSteps": []
+      },
+      "use-legacy-cache": {
+        "type": "successful",
+        "name": "use-legacy-cache",
+        "changedFiles": [
+          {
+            "path": "nx.json",
+            "type": "UPDATE"
+          }
+        ],
+        "ref": "d3d7429f3a0897f6b20070eddc1ed9144ba87a66",
         "nextSteps": []
       }
-    }
+    },
+    "runningMigrations": [
+      "use-legacy-cache"
+    ]
   }
 }
