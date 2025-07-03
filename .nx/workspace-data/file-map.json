@@ -1,0 +1,717 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.2",
+  "pathMappings": {
+    "@xin-feng/profile": [
+      "libs/profile/src/index.ts"
+    ],
+    "@xin-feng/shared-ui": [
+      "libs/shared/ui/src/index.ts"
+    ],
+    "@xin-feng/story": [
+      "libs/story/src/index.ts"
+    ],
+    "@xin-feng/ui": [
+      "ui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".angulardoc.json",
+        "hash": "7265719056432142574"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "1820914796432447533"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "4748908159742067723"
+      },
+      {
+        "file": "package.json",
+        "hash": "15159355558929422246"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6506524381010915743"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "14083762041784413560"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "14445283959358726954"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "10784999415901286656"
+      },
+      {
+        "file": "README.md",
+        "hash": "12976972888695389049"
+      },
+      {
+        "file": "nx.json",
+        "hash": "677411739950331276"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      }
+    ],
+    "projectFileMap": {
+      "story": [
+        {
+          "file": "libs/story/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/story/README.md",
+          "hash": "6910084151174882927"
+        },
+        {
+          "file": "libs/story/jest.config.ts",
+          "hash": "15909111740147354135"
+        },
+        {
+          "file": "libs/story/project.json",
+          "hash": "11043413455669465033"
+        },
+        {
+          "file": "libs/story/src/index.ts",
+          "hash": "9352616715274350751"
+        },
+        {
+          "file": "libs/story/src/lib/story/story.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/story/src/lib/story/story.component.html",
+          "hash": "4771945725833692284"
+        },
+        {
+          "file": "libs/story/src/lib/story/story.component.spec.ts",
+          "hash": "5118176691440103942",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/story/src/lib/story/story.component.ts",
+          "hash": "2104053281972680531",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/story/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/story/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/story/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/story/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "Playoffs": [
+        {
+          "file": "apps/Playoffs/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/Playoffs/jest.config.ts",
+          "hash": "16564174194478692223"
+        },
+        {
+          "file": "apps/Playoffs/project.json",
+          "hash": "4167102880463399801"
+        },
+        {
+          "file": "apps/Playoffs/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.actions.ts",
+          "hash": "15953128682528456644",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.effects.spec.ts",
+          "hash": "3653234971649241811",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store",
+            "npm:jasmine-marbles",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.effects.ts",
+          "hash": "12857664083503699719",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.models.ts",
+          "hash": "794261697404339609"
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.reducer.spec.ts",
+          "hash": "12437607544617449801",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.reducer.ts",
+          "hash": "3763733769453419643",
+          "deps": [
+            "npm:@ngrx/entity",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.selectors.spec.ts",
+          "hash": "16749097586330907902"
+        },
+        {
+          "file": "apps/Playoffs/src/app/+state/dandelion-state.selectors.ts",
+          "hash": "17484528660373928330",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.component.html",
+          "hash": "6119126336688747841"
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.component.scss",
+          "hash": "15010884637164874142"
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.component.spec.ts",
+          "hash": "16639012340635636312",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.component.ts",
+          "hash": "16006774826044681002",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@ng-bootstrap/ng-bootstrap",
+            "npm:@angular/material",
+            "npm:@angular/cdk",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.config.ts",
+          "hash": "7510676590476526991",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@ngrx/store",
+            "npm:@ngrx/store-devtools",
+            "npm:@ngrx/effects",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/app.routes.ts",
+          "hash": "12146508371690479261",
+          "deps": [
+            "npm:@angular/router",
+            [
+              "profile",
+              "dynamic"
+            ],
+            [
+              "story",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/constants.ts",
+          "hash": "13708547406458680801"
+        },
+        {
+          "file": "apps/Playoffs/src/app/darshboard/darshboard.component.css",
+          "hash": "11502330230456795284"
+        },
+        {
+          "file": "apps/Playoffs/src/app/darshboard/darshboard.component.html",
+          "hash": "18328536513529563980"
+        },
+        {
+          "file": "apps/Playoffs/src/app/darshboard/darshboard.component.spec.ts",
+          "hash": "330357636794741401",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/darshboard/darshboard.component.ts",
+          "hash": "13511733538615913112",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/cdk",
+            "npm:rxjs",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/homepage/homepage.component.css",
+          "hash": "9545580784623295459"
+        },
+        {
+          "file": "apps/Playoffs/src/app/homepage/homepage.component.html",
+          "hash": "84103878104865257"
+        },
+        {
+          "file": "apps/Playoffs/src/app/homepage/homepage.component.spec.ts",
+          "hash": "16391270120107791096",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/homepage/homepage.component.ts",
+          "hash": "11514241215418729189",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/cdk",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/nx-welcome.component.ts",
+          "hash": "858933457850572755",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/app/service/overview.service.ts",
+          "hash": "10961259803252396166",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/index.html",
+          "hash": "3837075775581850054"
+        },
+        {
+          "file": "apps/Playoffs/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/src/styles.scss",
+          "hash": "5498920678013144513"
+        },
+        {
+          "file": "apps/Playoffs/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/Playoffs/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/Playoffs/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/Playoffs/tsconfig.json",
+          "hash": "14845187541790154013"
+        },
+        {
+          "file": "apps/Playoffs/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "Playoffs-e2e": [
+        {
+          "file": "apps/Playoffs-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/Playoffs-e2e/cypress.config.ts",
+          "hash": "13191589169078909676",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/Playoffs-e2e/project.json",
+          "hash": "1682742201333580618"
+        },
+        {
+          "file": "apps/Playoffs-e2e/src/e2e/app.cy.ts",
+          "hash": "1448608020179960123"
+        },
+        {
+          "file": "apps/Playoffs-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/Playoffs-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/Playoffs-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/Playoffs-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/Playoffs-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "libs/shared/ui/.eslintrc.json",
+          "hash": "16743967055319191231"
+        },
+        {
+          "file": "libs/shared/ui/README.md",
+          "hash": "16248885516767211022"
+        },
+        {
+          "file": "libs/shared/ui/jest.config.ts",
+          "hash": "7265202783083027773"
+        },
+        {
+          "file": "libs/shared/ui/project.json",
+          "hash": "1111772189255867282"
+        },
+        {
+          "file": "libs/shared/ui/src/index.ts",
+          "hash": "8066056137453414313"
+        },
+        {
+          "file": "libs/shared/ui/src/lib/shared-ui/shared-ui.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/shared/ui/src/lib/shared-ui/shared-ui.component.html",
+          "hash": "6195570130184266428"
+        },
+        {
+          "file": "libs/shared/ui/src/lib/shared-ui/shared-ui.component.spec.ts",
+          "hash": "6577538746703376072",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared/ui/src/lib/shared-ui/shared-ui.component.ts",
+          "hash": "17781068561562877549",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/shared/ui/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/shared/ui/tsconfig.json",
+          "hash": "8526453262384300416"
+        },
+        {
+          "file": "libs/shared/ui/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/shared/ui/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "profile": [
+        {
+          "file": "libs/profile/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/profile/README.md",
+          "hash": "8774381907661815774"
+        },
+        {
+          "file": "libs/profile/jest.config.ts",
+          "hash": "10116320260198949762"
+        },
+        {
+          "file": "libs/profile/project.json",
+          "hash": "2732957016174431215"
+        },
+        {
+          "file": "libs/profile/src/index.ts",
+          "hash": "10789859365234437952"
+        },
+        {
+          "file": "libs/profile/src/lib/profile-list/profile-list.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/profile/src/lib/profile-list/profile-list.component.html",
+          "hash": "3414929502022098434"
+        },
+        {
+          "file": "libs/profile/src/lib/profile-list/profile-list.component.spec.ts",
+          "hash": "12620575898957968042",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/profile/src/lib/profile-list/profile-list.component.ts",
+          "hash": "535827602704331416",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@ng-bootstrap/ng-bootstrap",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/profile/src/lib/profile/profile.component.css",
+          "hash": "8863240152168843030"
+        },
+        {
+          "file": "libs/profile/src/lib/profile/profile.component.html",
+          "hash": "11549415993030343961"
+        },
+        {
+          "file": "libs/profile/src/lib/profile/profile.component.spec.ts",
+          "hash": "13886858894600094953",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/profile/src/lib/profile/profile.component.ts",
+          "hash": "14820745909097623361",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@ng-bootstrap/ng-bootstrap",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/profile/src/lib/service/account-service.service.spec.ts",
+          "hash": "1319241498840653662",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/profile/src/lib/service/account-service.service.ts",
+          "hash": "1537911976044651633",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/profile/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/profile/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/profile/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/profile/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "ui": [
+        {
+          "file": "ui/.eslintrc.json",
+          "hash": "13179335397355282534"
+        },
+        {
+          "file": "ui/README.md",
+          "hash": "3098996868279451883"
+        },
+        {
+          "file": "ui/jest.config.ts",
+          "hash": "16406803739677386541"
+        },
+        {
+          "file": "ui/project.json",
+          "hash": "5410938978485673369"
+        },
+        {
+          "file": "ui/src/index.ts",
+          "hash": "1382743820790675656"
+        },
+        {
+          "file": "ui/src/lib/playoffs-home.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui/src/lib/playoffs-home.component.html",
+          "hash": "4432889520115630270"
+        },
+        {
+          "file": "ui/src/lib/playoffs-home.component.spec.ts",
+          "hash": "10691176729417772581",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui/src/lib/playoffs-home.component.ts",
+          "hash": "7552300916597742351",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui/src/lib/ui/ui.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui/src/lib/ui/ui.component.html",
+          "hash": "13709680680123278056"
+        },
+        {
+          "file": "ui/src/lib/ui/ui.component.spec.ts",
+          "hash": "2887951508933850500",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui/src/lib/ui/ui.component.ts",
+          "hash": "18375427078517991863",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "ui/tsconfig.json",
+          "hash": "4881022640630122902"
+        },
+        {
+          "file": "ui/tsconfig.lib.json",
+          "hash": "4766185256741444917"
+        },
+        {
+          "file": "ui/tsconfig.spec.json",
+          "hash": "2129196202529263968"
+        }
+      ]
+    }
+  }
+}

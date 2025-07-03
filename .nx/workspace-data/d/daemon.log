@@ -1,0 +1,592 @@
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.373Z - Started listening on: \\.\pipe\nx\C:\Users\Wumin\AppData\Local\Temp\fa55328112ac164d1242\d.sock
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.377Z - [WATCHER]: Subscribed to changes within: c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo (native)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.386Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.389Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.417Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.418Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.419Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.421Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.818Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:45.820Z - Closed a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.090Z - Time taken for 'Load Nx Plugin: c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\plugins\package-json' 664.673ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.111Z - Time taken for 'Load Nx Plugin: c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\plugins\js' 686.2248ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.140Z - Time taken for 'loadDefaultNxPlugins' 716.1737ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.188Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 765.1401ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.261Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.262Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.262Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.273Z - Time taken for 'loadSpecifiedNxPlugins' 839.4703999999999ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.273Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.274Z - Established a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.274Z - Closed a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.278Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.278Z - Established a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.278Z - Closed a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.279Z - Established a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.279Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.279Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.281Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.282Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.282Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.287Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.288Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:46.288Z - Handled HASH_GLOB. Handling time: 3. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:47.439Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:47.439Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:47.439Z - Handled GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.159Z - Time taken for 'build-project-configs' 1874.5524999999998ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.293Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.294Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.295Z - Time taken for 'total for creating and serializing project graph' 2873.6814ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.297Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.297Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2874. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.308Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.308Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.309Z - Time taken for 'total for creating and serializing project graph' 0.6976999999997133ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.310Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.310Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.314Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.315Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.316Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:48.317Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.906Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.906Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.907Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.908Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.909Z - Time taken for 'total for creating and serializing project graph' 0.3813000000000102ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.909Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.909Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.913Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:49.914Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.902Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.902Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.903Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.903Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.904Z - Time taken for 'total for creating and serializing project graph' 0.4705000000003565ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.905Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.905Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.909Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:52.910Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.062Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.064Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.174Z - [REQUEST]: package-lock.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.174Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.183Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.185Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.185Z - Time taken for 'hash changed files from watcher' 0.5318999999999505ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.186Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.186Z - Handled HASH_GLOB. Handling time: 0. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.186Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.186Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.189Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.190Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.190Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.206Z - Time taken for 'build-project-configs' 23.280500000000757ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.253Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.254Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.254Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:57.254Z - Time taken for 'total execution time for createProjectGraph()' 34.20190000000002ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.078Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.079Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.080Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.081Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.082Z - Time taken for 'total for creating and serializing project graph' 0.5749999999989086ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.083Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.083Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.088Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.089Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.582Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.583Z - [WATCHER]: migrations.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.694Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.694Z - [REQUEST]: migrations.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.694Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.702Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.705Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.705Z - Time taken for 'hash changed files from watcher' 0.2426999999988766ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.705Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.705Z - Handled HASH_GLOB. Handling time: 0. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.705Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.706Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.708Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.709Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.709Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.719Z - Time taken for 'build-project-configs' 18.755300000000716ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.753Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.754Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.754Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:58.754Z - Time taken for 'total execution time for createProjectGraph()' 22.490100000000893ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.152Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.152Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.153Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.154Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.154Z - Time taken for 'total for creating and serializing project graph' 0.42660000000068976ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.155Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.155Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.164Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.165Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.392Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.392Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.394Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.395Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.396Z - Time taken for 'total for creating and serializing project graph' 0.5934999999990396ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.402Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.402Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 7.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.407Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.408Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.633Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.633Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.634Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.635Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.636Z - Time taken for 'total for creating and serializing project graph' 0.5753000000004249ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.636Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.636Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.641Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:43:59.641Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.741Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.742Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.843Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.843Z - [REQUEST]: package-lock.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.843Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.853Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.856Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.856Z - Time taken for 'hash changed files from watcher' 0.8447999999989406ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.857Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.857Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.857Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.857Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.862Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.865Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.865Z - Handled HASH_GLOB. Handling time: 3. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.876Z - Time taken for 'build-project-configs' 25.06999999999971ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.921Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.922Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.922Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:02.922Z - Time taken for 'total execution time for createProjectGraph()' 29.91479999999865ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.211Z - [WATCHER]: migrations.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.212Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.407Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.407Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.409Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.409Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.409Z - [REQUEST]: migrations.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.409Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.416Z - Time taken for 'hash changed files from watcher' 0.2294000000001688ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.418Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.422Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.422Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.422Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.422Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.423Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.425Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.425Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.425Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.437Z - Time taken for 'build-project-configs' 20.94970000000103ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.470Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.470Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.470Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.470Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.471Z - Time taken for 'total for creating and serializing project graph' 61.90279999999984ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.472Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.472Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 61. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.476Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:03.476Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.215Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.216Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.217Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.217Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.218Z - Time taken for 'total for creating and serializing project graph' 0.570400000000518ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.219Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.219Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.224Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.224Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.707Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.708Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.709Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.709Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.710Z - Time taken for 'total for creating and serializing project graph' 0.4382999999979802ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.711Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.711Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.715Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:04.716Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.790Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.791Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.898Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.898Z - [REQUEST]: package-lock.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.898Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.905Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - Time taken for 'hash changed files from watcher' 0.5227999999988242ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - Handled HASH_GLOB. Handling time: 1. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.907Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.910Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.911Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.911Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.922Z - Time taken for 'build-project-configs' 17.774100000002363ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.953Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.954Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.954Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:06.954Z - Time taken for 'total execution time for createProjectGraph()' 20.21889999999985ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.225Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.226Z - [WATCHER]: migrations.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.431Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.432Z - [REQUEST]: migrations.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.432Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.441Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.444Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.444Z - Time taken for 'hash changed files from watcher' 0.26349999999729334ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.445Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.445Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.445Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.445Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.449Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.449Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.449Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.464Z - Time taken for 'build-project-configs' 24.45900000000256ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.502Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.503Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.503Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:07.503Z - Time taken for 'total execution time for createProjectGraph()' 27.937799999999697ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.243Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.243Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.244Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.245Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.246Z - Time taken for 'total for creating and serializing project graph' 0.43769999999858555ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.246Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.246Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.251Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.252Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.486Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.486Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.487Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.488Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.489Z - Time taken for 'total for creating and serializing project graph' 0.6383999999998196ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.491Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.492Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.497Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.497Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.725Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.725Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.726Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.726Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.727Z - Time taken for 'total for creating and serializing project graph' 0.41190000000278815ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.727Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.728Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.732Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:08.732Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.732Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.732Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.733Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.734Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.735Z - Time taken for 'total for creating and serializing project graph' 0.38870000000315486ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.735Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.735Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.739Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:09.739Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.778Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.778Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.890Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.890Z - [REQUEST]: package-lock.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.890Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.898Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.900Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.900Z - Time taken for 'hash changed files from watcher' 0.5132999999987078ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.901Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.901Z - Handled HASH_GLOB. Handling time: 1. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.901Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.901Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.905Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.905Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.905Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.914Z - Time taken for 'build-project-configs' 18.388899999998102ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.945Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.946Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.946Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:10.946Z - Time taken for 'total execution time for createProjectGraph()' 19.85019999999713ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.176Z - [WATCHER]: migrations.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.176Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.381Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.381Z - [REQUEST]: migrations.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.381Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.388Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.392Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.392Z - Time taken for 'hash changed files from watcher' 0.3489999999983411ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.393Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.393Z - Handled HASH_GLOB. Handling time: 0. Response time: 5.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.393Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.393Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.397Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.398Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.398Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.410Z - Time taken for 'build-project-configs' 22.318200000001525ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.441Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.441Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.441Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:11.441Z - Time taken for 'total execution time for createProjectGraph()' 20.494699999999284ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.194Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.194Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.195Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.196Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.197Z - Time taken for 'total for creating and serializing project graph' 0.3787000000011176ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.197Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.197Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.201Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.202Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.988Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.988Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.989Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.989Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.990Z - Time taken for 'total for creating and serializing project graph' 0.3868000000002212ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.991Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.991Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.995Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:12.995Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.939Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.939Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.940Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.940Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.941Z - Time taken for 'total for creating and serializing project graph' 0.35930000000007567ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.942Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.942Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.945Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:13.946Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.239Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.240Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.241Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.241Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.242Z - Time taken for 'total for creating and serializing project graph' 0.37370000000009895ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.242Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.242Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.246Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.247Z - Done responding to the client null
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.648Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.649Z - [WATCHER]: package-lock.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.760Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.760Z - [REQUEST]: package-lock.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.760Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.767Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - Time taken for 'hash changed files from watcher' 0.6396999999997206ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - Handled HASH_GLOB. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.769Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.772Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.772Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.772Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.783Z - Time taken for 'build-project-configs' 16.14050000000134ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.814Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.815Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.815Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:14.815Z - Time taken for 'total execution time for createProjectGraph()' 19ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.046Z - [WATCHER]: migrations.json was modified
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.047Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.262Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.262Z - [REQUEST]: migrations.json
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.262Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.269Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.271Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.271Z - Time taken for 'hash changed files from watcher' 0.34209999999802676ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.271Z - Done responding to the client handleHashGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.271Z - Handled HASH_GLOB. Handling time: 0. Response time: 3.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.272Z - Done responding to the client handleGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.272Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.275Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.275Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.275Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.286Z - Time taken for 'build-project-configs' 17.70130000000063ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.318Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.318Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.318Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:15.318Z - Time taken for 'total execution time for createProjectGraph()' 19.645800000002055ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.052Z - Established a connection. Number of open connections: 4
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.052Z - Closed a connection. Number of open connections: 3
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.054Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.054Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.055Z - Time taken for 'total for creating and serializing project graph' 0.4834000000009837ms
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.055Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.055Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.065Z - [REQUEST]: Responding to the client with an error. Invalid payload from the client Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+Error: Unsupported payload sent to daemon server: {"type":"REQUEST_FILE_DATA"}
+    at handleMessage (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:181:104)
+    at c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\daemon\server\server.js:74:15
+    at Socket.<anonymous> (c:\Users\Wumin\Documents\CodeShop\NxShop\angular-monorepo\node_modules\nx\src\utils\consume-messages-from-socket.js:13:17)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+[NX v20.8.2 Daemon Server] - 2025-07-03T13:44:16.066Z - Done responding to the client null

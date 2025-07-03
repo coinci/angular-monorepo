@@ -330,6 +330,7 @@
       "ref": "d3b01c2cc2abb3632d7410006196a701d52b01ac",
       "subject": "Init# test lazy load in router"
     },
-    "targetVersion": "20"
+    "targetVersion": "20",
+    "confirmedPackageUpdates": true
   }
 }
