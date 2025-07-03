@@ -331,6 +331,27 @@
       "subject": "Init# test lazy load in router"
     },
     "targetVersion": "20",
-    "confirmedPackageUpdates": true
+    "confirmedPackageUpdates": true,
+    "runningMigrations": [
+      "19-2-0-move-graph-cache-directory"
+    ],
+    "completedMigrations": {
+      "19-2-0-move-graph-cache-directory": {
+        "type": "successful",
+        "name": "19-2-0-move-graph-cache-directory",
+        "changedFiles": [
+          {
+            "path": ".gitignore",
+            "type": "UPDATE"
+          },
+          {
+            "path": ".prettierignore",
+            "type": "UPDATE"
+          }
+        ],
+        "ref": "f13edf1d1cbf56bf8de698eb2965c2cd8e0263a5",
+        "nextSteps": []
+      }
+    }
   }
 }

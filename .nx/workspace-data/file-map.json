@@ -35,76 +35,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".angulardoc.json",
-        "hash": "7265719056432142574"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "1820914796432447533"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "4748908159742067723"
-      },
-      {
-        "file": "package.json",
-        "hash": "15159355558929422246"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6506524381010915743"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
       },
       {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6506524381010915743"
+      },
+      {
         "file": ".gitignore",
         "hash": "14083762041784413560"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "14445283959358726954"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "10784999415901286656"
       },
       {
         "file": "README.md",
         "hash": "12976972888695389049"
       },
       {
+        "file": ".angulardoc.json",
+        "hash": "7265719056432142574"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "10008770349262862562"
+      },
+      {
+        "file": "package.json",
+        "hash": "15159355558929422246"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "11167625738194007757"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "14445283959358726954"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "4748908159742067723"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
         "file": "nx.json",
         "hash": "677411739950331276"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
       }
     ],
     "projectFileMap": {
