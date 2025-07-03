@@ -24,4 +24,11 @@ import { MatInputModule } from '@angular/material/input';
 })
 export class ProfileComponent {
   accordion = viewChild.required(MatAccordion);
+
+  prevStep() {
+    throw new Error('Method not implemented.');
+  }
+  nextStep() {
+    throw new Error('Method not implemented.');
+  }
 }

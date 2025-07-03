@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject, isDevMode, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -10,6 +10,8 @@ import { MatListModule } from '@angular/material/list';
 
 import { CdkScrollableModule } from '@angular/cdk/scrolling';
 import { NavList } from './constants';
+import { Store } from '@ngrx/store';
+import * as DandelionActions from './+state/dandelion-state.actions';
 
 @Component({
   standalone: true,
@@ -28,7 +30,16 @@ import { NavList } from './constants';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  private store = inject(Store);
+
   title = 'Playoffs';
   fillerNav = NavList;
+
+  ngOnInit() {
+    console.log('starting init');
+    // log he isdevmode value
+    console.log('isDevMode', isDevMode());
+    this.store.dispatch(DandelionActions.initDandelionState());
+  }
 }

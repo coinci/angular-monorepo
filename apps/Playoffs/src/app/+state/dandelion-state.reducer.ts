@@ -34,8 +34,13 @@ const reducer = createReducer(
   })),
   on(
     DandelionStateActions.loadDandelionStateSuccess,
-    (state, { dandelionState }) =>
-      dandelionStateAdapter.setAll(dandelionState, { ...state, loaded: true })
+    (state, { dandelionState }) => {
+      console.log('......in reducer');
+      return dandelionStateAdapter.setAll(dandelionState, {
+        ...state,
+        loaded: true,
+      });
+    }
   ),
   on(DandelionStateActions.loadDandelionStateFailure, (state, { error }) => ({
     ...state,

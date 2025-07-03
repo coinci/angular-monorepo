@@ -19,5 +19,10 @@
       <mat-label>Age</mat-label>
       <input matInput type="number" min="1" />
     </mat-form-field>
+
+    <mat-action-row>
+      <button mat-button (click)="prevStep()">Previous</button>
+      <button mat-button (click)="nextStep()">Next</button>
+    </mat-action-row>
   </mat-expansion-panel>
 </mat-accordion>
