@@ -375,12 +375,59 @@
             "type": "UPDATE"
           }
         ],
-        "ref": "d3d7429f3a0897f6b20070eddc1ed9144ba87a66",
+        "ref": "3614a0b5f9ca0bc57275241fc33b9cd8deb079bc",
         "nextSteps": []
+      },
+      "update-typescript-eslint-v8.13.0": {
+        "type": "skipped"
+      },
+      "add-file-extensions-to-overrides": {
+        "type": "skipped"
+      },
+      "update-19-6-0-update-ci-webserver-for-vite": {
+        "type": "skipped"
+      },
+      "set-inject-document-domain": {
+        "type": "skipped"
+      },
+      "remove-experimental-fetch-polyfill": {
+        "type": "skipped"
+      },
+      "replace-experimental-just-in-time-compile": {
+        "type": "skipped"
+      },
+      "update-component-testing-mount-imports": {
+        "type": "skipped"
+      },
+      "replace-getJestProjects-with-getJestProjectsAsync": {
+        "type": "skipped"
+      },
+      "add-typescript-eslint-utils": {
+        "type": "skipped"
+      },
+      "update-angular-cli-version-18-1-0": {
+        "type": "skipped"
+      },
+      "update-19-6-0": {
+        "type": "skipped"
+      },
+      "update-angular-cli-version-18-2-0": {
+        "type": "skipped"
+      },
+      "update-19-6-1-ensure-module-federation-target-defaults": {
+        "type": "skipped"
+      },
+      "update-20-2-0-update-module-federation-config-import": {
+        "type": "skipped"
+      },
+      "update-20-2-0-update-with-module-federation-import": {
+        "type": "skipped"
+      },
+      "update-angular-cli-version-19-0-0": {
+        "type": "failed",
+        "name": "update-angular-cli-version-19-0-0",
+        "error": "The \"path\" argument must be of type string. Received undefined"
       }
-    },
-    "runningMigrations": [
-      "use-legacy-cache"
-    ]
+    }
   }
 }

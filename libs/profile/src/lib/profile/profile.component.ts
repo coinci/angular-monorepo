@@ -1,5 +1,6 @@
-import { Component, viewChild } from '@angular/core';
+import { Component, input, model, viewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatAccordion, MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,6 +13,7 @@ import { MatInputModule } from '@angular/material/input';
   standalone: true,
   imports: [
     CommonModule,
+    FormsModule,
     NgbModule,
     MatExpansionModule,
     MatButtonModule,
@@ -23,12 +25,25 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './profile.component.css',
 })
 export class ProfileComponent {
+  myHeader = input('title_init', { transform: this.localizeString });
+  totleNumber = input.required<number>();
+  // using for two-way binding
+  description = model('description');
+
   accordion = viewChild.required(MatAccordion);
 
+  // constructor() {}
+
   prevStep() {
-    throw new Error('Method not implemented.');
+    const accordion = this.accordion();
+    accordion.closeAll();
+    console.log('Method not implemented.');
   }
   nextStep() {
-    throw new Error('Method not implemented.');
+    console.log('Method not implemented.');
+  }
+
+  localizeString(inputString: string) {
+    return `transformed string ${inputString}`;
   }
 }

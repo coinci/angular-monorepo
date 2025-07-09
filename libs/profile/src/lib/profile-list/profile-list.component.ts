@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatIconModule } from '@angular/material/icon';
@@ -11,4 +11,8 @@ import { ProfileComponent } from '../profile/profile.component';
   templateUrl: './profile-list.component.html',
   styleUrl: './profile-list.component.css',
 })
-export class ProfileListComponent {}
+export class ProfileListComponent {
+  h1Title = 'Profile local';
+  // two-way binding with signal
+  myDescription = signal('my description');
+}
