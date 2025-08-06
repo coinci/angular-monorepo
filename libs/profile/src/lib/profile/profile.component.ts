@@ -1,4 +1,4 @@
-import { Component, input, model, viewChild } from '@angular/core';
+import { Component, input, model, output, viewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -30,16 +30,22 @@ export class ProfileComponent {
   // using for two-way binding
   description = model('description');
 
+  itemChanged = output<string>();
+
   accordion = viewChild.required(MatAccordion);
 
   // constructor() {}
 
   prevStep() {
+    this.itemChanged.emit('previous step');
     const accordion = this.accordion();
     accordion.closeAll();
     console.log('Method not implemented.');
   }
   nextStep() {
+    this.itemChanged.emit('Next step');
+    const accordion = this.accordion();
+    accordion.closeAll();
     console.log('Method not implemented.');
   }
 

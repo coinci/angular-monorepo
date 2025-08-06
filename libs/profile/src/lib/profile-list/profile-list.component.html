@@ -1,3 +1,11 @@
-<p>profile-list works! - {{myDescription()}}</p>
+<p>profile-list works! - {{ myDescription() }}</p>
+<p>Event message: {{ eventMessage() }}</p>
 
-<lib-profile [myHeader]="h1Title" [totleNumber]="10" [(description)]="myDescription"></lib-profile>
+<hr />
+
+<lib-profile
+  [myHeader]="h1Title"
+  [totleNumber]="10"
+  [(description)]="myDescription"
+  (itemChanged)="onItemChanged($event)"
+></lib-profile>

@@ -1,0 +1,5 @@
+ /* set the background color for the profile component */
+ :host {
+     background-color: #c1e715;
+     font-size: large;
+ }

@@ -1,1 +1,24 @@
 <p>story works!123</p>
+
+<div class="btn-container">
+  <button matButton="filled" (click)="eventEmit('wonderland')">Wonderland</button>
+
+  <button matButton="filled" (click)="eventEmit('redhat')">Red Hat</button>
+</div>
+
+<hr/>
+<ng-container *ngComponentOutlet="getStoryItem()"></ng-container>
+<hr />
+<!--log part-->
+<!-- <div *ngFor="let item of logs; let i = index">{{i}} - {{ item }}</div> -->
+
+<mat-list>
+  @for (item of logs; track item) {
+  <mat-list-item>
+    <mat-icon matListItemIcon>home</mat-icon>
+    <div matListItemTitle>{{ $index + 1 }} - {{ item }}</div>
+  </mat-list-item>
+  }
+</mat-list>
+
+
