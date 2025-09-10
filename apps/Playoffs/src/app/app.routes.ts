@@ -1,6 +1,7 @@
 import { Route } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { DarshboardComponent } from './darshboard/darshboard.component';
+import { PromiseShopComponent } from './promise-shop/promise-shop.component';
 
 export const appRoutes: Route[] = [
   {
@@ -28,5 +29,9 @@ export const appRoutes: Route[] = [
   {
     path: 'darshboard',
     component: DarshboardComponent,
+  },
+    {
+    path: 'promise',
+    component: PromiseShopComponent,
   },
 ];
