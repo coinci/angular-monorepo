@@ -27,11 +27,11 @@ export const initialDandelionStateState: DandelionStateState =
 
 const reducer = createReducer(
   initialDandelionStateState,
-  on(DandelionStateActions.initDandelionState, (state) => ({
-    ...state,
-    loaded: false,
-    error: null,
-  })),
+  // on(DandelionStateActions.initDandelionState, (state) => ({
+  //   ...state,
+  //   loaded: false,
+  //   error: null,
+  // })),
   on(
     DandelionStateActions.loadDandelionStateSuccess,
     (state, { dandelionState }) => {
