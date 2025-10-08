@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
+import {MatGridListModule} from '@angular/material/grid-list';
 import { Observable } from 'rxjs';
 import { map, shareReplay, first } from 'rxjs/operators';
 import { Store } from '@ngrx/store';
@@ -23,6 +24,7 @@ import { DandelionStateEntity } from '../+state/dandelion-state.models';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
+    MatGridListModule,
     AsyncPipe,
   ]
 })

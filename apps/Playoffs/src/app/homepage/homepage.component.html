@@ -1,10 +1,22 @@
-<div>Homepage - {{message()}}</div>
+<div>Homepage - {{ message() }}</div>
 
-<mat-list role="list">
-@for (entity of entities; track $index) {
-  <mat-list-item role="listitem">
-    <h4 matLine>{{ entity.name }}- {{entity.acctNumber}}</h4>
-  </mat-list-item>
+<hr />
 
-}
-</mat-list>
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <mat-list role="list">
+      @for (entity of entities; track $index) {
+      <mat-list-item role="listitem">
+        <h4 matLine>{{ entity.name }}- {{ entity.acctNumber }}</h4>
+      </mat-list-item>
+
+      }
+    </mat-list>
+  </mat-grid-tile>
+
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>4</mat-grid-tile>
+  <mat-grid-tile>5</mat-grid-tile>
+  <mat-grid-tile>6</mat-grid-tile>
+</mat-grid-list>
