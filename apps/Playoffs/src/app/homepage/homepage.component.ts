@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { AsyncPipe } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -30,6 +30,7 @@ export class HomepageComponent implements OnInit {
   private breakpointObserver = inject(BreakpointObserver);
   private store = inject(Store);
   entities:DandelionStateEntity[] = [];
+  message = signal('Hello from signal!');
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
