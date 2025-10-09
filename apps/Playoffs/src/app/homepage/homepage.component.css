@@ -1,24 +1,31 @@
-.sidenav-container {
-  height: 100%;
+.grid-header {
+  display: block;
 }
-
-.sidenav {
-  width: 200px;
+.button-section {
+  display: flex;
+  align-items: center;
 }
-
-.sidenav .mat-toolbar {
-  background: inherit;
-}
-
-.mat-toolbar.mat-primary {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
 mat-grid-tile {
   background: lightgray;
 }
-mat-grid-tile:nth-child(even) {
+mat-grid-tile:nth-child(odd) {
   background: azure;
 }
+mat-grid-tile:nth-child(1) {
+  background: lightyellow;
+}
+
+.full-field {
+  width: 80%;
+}
+
+mat-grid-tile-header {
+  justify-content: center;
+}
+.title-header {
+  color: yellow;
+}
+/* list-container {
+  height: 200px;
+  overflow-y: auto;
+} */

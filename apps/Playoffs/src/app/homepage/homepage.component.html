@@ -3,19 +3,62 @@
 <hr />
 
 <mat-grid-list cols="2" rowHeight="2:1">
-  <mat-grid-tile>
-    <mat-list role="list">
-      @for (entity of entities; track $index) {
-      <mat-list-item role="listitem">
-        <h4 matLine>{{ entity.name }}- {{ entity.acctNumber }}</h4>
-      </mat-list-item>
+  <mat-grid-tile colspan="2">
+    <div class="header-container">
+      <h1 class="grid-header">Welcome to the Playoffs Application!</h1>
 
-      }
-    </mat-list>
+      <div class="button-section">
+        <button mat-button="outlined" (click)="clearLogs()">Clear Logs</button>
+        <button mat-button="outlined" (click)="clearLogs()">try 1</button>
+        <button mat-button="outlined" (click)="clearLogs()">try 2</button>
+      </div>
+    </div>
   </mat-grid-tile>
 
-  <mat-grid-tile>2</mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>
+    <div class="list-container">
+      <mat-list role="list" class="full-field">
+        @for (entity of entities; track $index) {
+        <mat-list-item role="listitem">
+          <h4 matLine>{{ entity.name }}- {{ entity.acctNumber }}</h4>
+        </mat-list-item>
+        }
+      </mat-list>
+    </div>
+
+    <mat-grid-tile-header>
+      <h3 class="title-header">Store Checking</h3>
+    </mat-grid-tile-header>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <app-msg-list [logs]="localLogs"></app-msg-list>
+    <mat-grid-tile-header>
+      <h3 class="title-header">Event logging</h3>
+    </mat-grid-tile-header>
+  </mat-grid-tile>
+
+  <!--Input testing-->
+  <mat-grid-tile>
+    <mat-form-field class="full-field">
+      <mat-label>Favorite Food</mat-label>
+      <input
+        matInput
+        placeholder="Pizza"
+        (click)="foodClicked($event)"
+        value="Sushi"
+      />
+      <mat-hint>Hint: Please enter your favorite food</mat-hint>
+    </mat-form-field>
+
+    <mat-grid-tile-header>
+      <h3 class="title-header">Event Shop</h3>
+    </mat-grid-tile-header>
+    <mat-grid-tile-footer>
+      <h3>footer</h3>
+    </mat-grid-tile-footer>
+  </mat-grid-tile>
+
   <mat-grid-tile>4</mat-grid-tile>
   <mat-grid-tile>5</mat-grid-tile>
   <mat-grid-tile>6</mat-grid-tile>

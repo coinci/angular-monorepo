@@ -1,17 +1,19 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { AsyncPipe } from '@angular/common';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
-import {MatGridListModule} from '@angular/material/grid-list';
-import { Observable } from 'rxjs';
-import { map, shareReplay, first } from 'rxjs/operators';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { Store } from '@ngrx/store';
-import * as dSelectors from '../+state/dandelion-state.selectors';
+import { first } from 'rxjs/operators';
 import { DandelionStateEntity } from '../+state/dandelion-state.models';
+import * as dSelectors from '../+state/dandelion-state.selectors';
+import { MsgListComponent } from "../msg-list/msg-list.component";
 
 @Component({
   selector: 'app-homepage',
@@ -25,20 +27,19 @@ import { DandelionStateEntity } from '../+state/dandelion-state.models';
     MatListModule,
     MatIconModule,
     MatGridListModule,
-    AsyncPipe,
-  ]
+    MsgListComponent,
+    MatInputModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatDividerModule,
+]
 })
 export class HomepageComponent implements OnInit {
-  private breakpointObserver = inject(BreakpointObserver);
   private store = inject(Store);
   entities:DandelionStateEntity[] = [];
   message = signal('Hello from signal!');
+  localLogs: string[] = ['init log1'];
 
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
-    .pipe(
-      map(result => result.matches),
-      shareReplay()
-    );
 
  ngOnInit(): void {
    this.store.select(dSelectors.selectAllDandelionState).pipe(
@@ -48,5 +49,15 @@ export class HomepageComponent implements OnInit {
 
      console.log('====> after selector', this.entities);
    });
+ }
+
+ foodClicked($event:MouseEvent){
+  this.localLogs.push(`Food clicked: ${($event.target as HTMLInputElement).value}`);
+  console.log('Food clicked', $event);
+ }
+
+ clearLogs(){
+  this.localLogs = [];
+  console.log('Logs cleared');
  }
 }

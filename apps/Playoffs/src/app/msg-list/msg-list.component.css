@@ -1,0 +1,10 @@
+mat-list-item {
+  height: 32px;
+  max-height: 32px;
+}
+
+.div-msg-list {
+  height: 300px;
+  width: 100%;
+  overflow-y: auto;
+}

@@ -1,1 +1,14 @@
-<p>msg-list works!</p>
+@if(logs().length === 0) {
+<div>No messages!!!</div>
+} @else {
+<div class="div-msg-list">
+  <mat-list>
+    @for (item of logs(); track item) {
+    <mat-list-item>
+      <mat-icon matListItemIcon>message</mat-icon>
+      <div matListItemTitle>{{ $index + 1 }} - {{ item }}</div>
+    </mat-list-item>
+    }
+  </mat-list>
+</div>
+}
