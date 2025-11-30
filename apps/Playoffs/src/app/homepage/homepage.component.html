@@ -3,6 +3,7 @@
 <hr />
 
 <mat-grid-list cols="2" rowHeight="2:1">
+  <!--For total header part-->
   <mat-grid-tile colspan="2">
     <div class="header-container">
       <h1 class="grid-header">Welcome to the Playoffs Application!</h1>
@@ -15,9 +16,10 @@
     </div>
   </mat-grid-tile>
 
+  <!--For store checking-->
   <mat-grid-tile>
     <div class="list-container">
-      <mat-list role="list" class="full-field">
+      <mat-list role="list" >
         @for (entity of entities; track $index) {
         <mat-list-item role="listitem">
           <h4 matLine>{{ entity.name }}- {{ entity.acctNumber }}</h4>
@@ -38,18 +40,24 @@
     </mat-grid-tile-header>
   </mat-grid-tile>
 
-  <!--Input testing-->
+  <!--Input testing (keyup.enter)="foodEntered($event)"-->
   <mat-grid-tile>
+    <div class="content-container">
+      <h2 class="content-header">Input Testing</h2>
     <mat-form-field class="full-field">
       <mat-label>Favorite Food</mat-label>
       <input
         matInput
         placeholder="Pizza"
         (click)="foodClicked($event)"
-        value="Sushi"
+        (keyup)="foodKeyup($event)"
+        (keyup.enter)="foodEntered($event)"
+        [(ngModel)]="favoriteFood"
       />
       <mat-hint>Hint: Please enter your favorite food</mat-hint>
     </mat-form-field>
+    <p>Your favorite food is: {{ favoriteFood | myPrefix: 'CUS'}}, price is {{foodPrice | currency }}</p>
+    </div>
 
     <mat-grid-tile-header>
       <h3 class="title-header">Event Shop</h3>

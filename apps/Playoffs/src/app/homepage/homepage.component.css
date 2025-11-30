@@ -18,6 +18,12 @@ mat-grid-tile:nth-child(1) {
 .full-field {
   width: 80%;
 }
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 mat-grid-tile-header {
   justify-content: center;
