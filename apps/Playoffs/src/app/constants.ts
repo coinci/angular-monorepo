@@ -4,4 +4,5 @@ export const NavList = [
   { name: 'Profile', link: '/profiles' },
   { name: 'Story', link: '/story' },
   { name: 'Promise', link: '/promise' },
+  { name: 'Labs', link: '/Labs' },
 ];

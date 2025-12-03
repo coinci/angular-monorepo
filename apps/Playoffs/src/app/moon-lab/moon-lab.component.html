@@ -1,0 +1,13 @@
+<p>moon-lab works!</p>
+<h3>
+  <b>{{ title() }}</b>
+</h3>
+<p>All start list: {{allStars}}</p>
+
+<ng-container *ngTemplateOutlet="myFrament; context: { from: 'Fouly' }"></ng-container>
+
+
+<ng-template #myFrament let-source="from">
+  <p>THis is a template frament from {{source}}</p>
+</ng-template>
+

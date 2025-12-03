@@ -3,15 +3,15 @@ import {
   isDevMode,
   provideZoneChangeDetection,
 } from '@angular/core';
-import { provideRouter } from '@angular/router';
-import { appRoutes } from './app.routes';
-import { provideStore, provideState } from '@ngrx/store';
-import { provideStoreDevtools } from '@ngrx/store-devtools';
-import { provideEffects } from '@ngrx/effects';
-import * as fromDandelionState from './+state/dandelion-state.reducer';
-import { DandelionStateEffects } from './+state/dandelion-state.effects';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { provideRouter } from '@angular/router';
+import { provideEffects } from '@ngrx/effects';
+import { provideState, provideStore } from '@ngrx/store';
+import { provideStoreDevtools } from '@ngrx/store-devtools';
+import { DandelionStateEffects } from './+state/dandelion-state.effects';
+import * as fromDandelionState from './+state/dandelion-state.reducer';
+import { appRoutes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
   providers: [

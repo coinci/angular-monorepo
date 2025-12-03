@@ -1,7 +1,9 @@
 import { Route } from '@angular/router';
-import { HomepageComponent } from './homepage/homepage.component';
 import { DarshboardComponent } from './darshboard/darshboard.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { myGuardGuard } from './my-guard.guard';
 import { PromiseShopComponent } from './promise-shop/promise-shop.component';
+import { SpaceLabComponent } from './space-lab/space-lab.component';
 
 export const appRoutes: Route[] = [
   {
@@ -33,5 +35,16 @@ export const appRoutes: Route[] = [
     {
     path: 'promise',
     component: PromiseShopComponent,
+  },
+  {
+    path: 'Labs',
+    redirectTo: 'Labs/0',
+  },
+   {
+    path: 'Labs/:id',
+    component: SpaceLabComponent,
+    data: { title: 'Space Labs' },
+    canActivate: [myGuardGuard],
+
   },
 ];

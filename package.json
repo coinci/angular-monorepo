@@ -29,6 +29,7 @@
     "@nx/angular": "20.8.2",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "lodash-es": "^4.17.21",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "0.15.1"
@@ -60,6 +61,7 @@
     "@swc/core": "1.5.29",
     "@swc/helpers": "0.5.17",
     "@types/jest": "29.5.14",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "18.16.9",
     "@typescript-eslint/eslint-plugin": "7.16.0",
     "@typescript-eslint/parser": "7.16.0",

@@ -1,0 +1,17 @@
+<p>space-lab works!</p>
+<div>
+  <p>Count: {{ count() }}</p>
+  <p>Double Count: {{ doubleCount() }}</p>
+  <button mat-raised-button (click)="increment()">Increment Count</button>
+  <button mat-raised-button (click)="updateTestData()">Update TestData</button>
+  <button mat-raised-button (click)="diffTestData()">Diff TestData</button>
+</div>
+<hr />
+<div class="toolbar">
+  <input matInput type="text" [(ngModel)]="spaceName" placeholder="Enter space name" />
+  <button mat-raised-button (click)="changeSpace()">Change space</button>
+</div>
+<hr />
+<div>
+  <app-moon-lab [spaceName]="spaceName()"></app-moon-lab>
+</div>
